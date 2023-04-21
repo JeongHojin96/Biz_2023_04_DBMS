@@ -33,3 +33,4 @@
 
 ### Entity, Attribute 연결선
 - 화살표를 사용하여 Entity에서 Attribute 반향으로 직선으로 연결한다.
+-
