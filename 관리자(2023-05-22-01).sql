@@ -35,6 +35,16 @@ REVOKE CREATE SESSION FROM C##MYUSER;
 GRANT CREATE TABLE TO C##MYUSER;
 REVOKE CREATE TABLE FROM C##MYUSER;
 
+-- 실습의 편릿겅을 위하여 SYSDBA 보다 한단계 낮은 일반 DBA권한을 부여
+-- 오라클에서는 SYSDBA(SYSTEM 등)의 User 권한은 매우 조심해서 신중하게 다루어야 한다.
+-- DB 사용의 편의성을 위하여 오라클에서는 DBA 권한을 일반 사용자에게 부여할수 있도록 하고있다.
+
+-- 이 권한은 실무(실제환경)에서는 절대 사용하면 안된다.
+-- 시스템의 중요한 데이터 사전을 제외한 모든 데이터를
+-- 핸들링(추가, 수정, 삭제, 제거 등)을 할수 있는 권한이다.
+-- 다만 실습 환경에서만 사용하자
+GRANT DBA TO C##MYUSER; 
+
 
 
 
