@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2023-05-26T04:36:41.302Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Wc8QcrKRyJJptuWpb504" version="21.3.4" type="device">
+  <diagram name="페이지-1" id="KYOt153nJwCbStMNe_rK">
+    <mxGraphModel dx="634" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cq0V7Gk7egqD8pX6PEFV-7" style="rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;exitX=0.44;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cq0V7Gk7egqD8pX6PEFV-1" target="cq0V7Gk7egqD8pX6PEFV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq0V7Gk7egqD8pX6PEFV-8" style="rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.71;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cq0V7Gk7egqD8pX6PEFV-1" target="cq0V7Gk7egqD8pX6PEFV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq0V7Gk7egqD8pX6PEFV-9" style="rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cq0V7Gk7egqD8pX6PEFV-1" target="cq0V7Gk7egqD8pX6PEFV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq0V7Gk7egqD8pX6PEFV-10" style="rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cq0V7Gk7egqD8pX6PEFV-1" target="cq0V7Gk7egqD8pX6PEFV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq0V7Gk7egqD8pX6PEFV-11" style="rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cq0V7Gk7egqD8pX6PEFV-1" target="cq0V7Gk7egqD8pX6PEFV-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cq0V7Gk7egqD8pX6PEFV-1" value="메모장" style="whiteSpace=wrap;html=1;align=center;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="280" y="220" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cq0V7Gk7egqD8pX6PEFV-2" value="작성자" style="ellipse;whiteSpace=wrap;html=1;align=center;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cq0V7Gk7egqD8pX6PEFV-3" value="일련번호" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="60" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cq0V7Gk7egqD8pX6PEFV-4" value="작성일자" style="ellipse;whiteSpace=wrap;html=1;align=center;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="330" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cq0V7Gk7egqD8pX6PEFV-5" value="내용" style="ellipse;whiteSpace=wrap;html=1;align=center;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cq0V7Gk7egqD8pX6PEFV-6" value="제목" style="ellipse;whiteSpace=wrap;html=1;align=center;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="470" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

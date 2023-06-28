@@ -25,7 +25,7 @@ DBMS 엔진에 따라 insert를 할때 자동으로 일련번호를 생성하는
 
 */
 DROP  SEQUENCE seq_accList;
-CREATE SEQUENCE seq_accList
+CREATE sequence seq_accList
 START WITH 1 INCREMENT BY 1;
 
 SELECT seq_accList.NEXTVAL FROM DUAL;
