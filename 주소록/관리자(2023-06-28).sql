@@ -22,4 +22,33 @@ System 을 통해 DB 데이터에 접근할때는 TABLESPACE 를 통하지 않�
 */
 -- 사용자 생성
 -- 오라클 21c(12c 이상)에서는 사용자 등록을 하기 전에 SCRIPT 실행을 ON 해야 한다.
+-- 오라클 12c 이상에서는 사용자 ID C##아이디 형식으로 생성해야 한다.
+-- 사용자 ID를 관리하기가 상당히 불편하다.
+-- 이 작업을 선생하지 않으면 사용자 ID와 TABLESPACE 를 연동할 수 없다.
 ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
+
+/*
+addr 이라는 사용자ID 를 등록하고
+비밀번호는 12341234로 한다.
+또한 addr 사용자와 addrDB TABLESPACE 를 서로 연동한다.
+*/
+
+ CREATE USER addr IDENTIFIED BY 12341234
+ DEFAULT TABLESPACE addrDB;
+ 
+ /*
+ 새로 생성한 사용자에게 DB 접근(CRUD)할수 있는 권한 부여
+ 권한을 부여할때 로그인, CRUD 하기, TABLE 생성하기 등의 권한을
+ 세부적으로 부여해야 하는데,
+ 학습하는 상황에서 세부적인 권한부여는 다소 불편함이 있어서
+ DBA 의 권한을 부여한다.
+ 
+ Oracle에서 DBA 의 권한은 SYSDBA 보다 다소 제한된 권한이다.
+ System에 직접 접근하는 것은 금지하고, 그외 권한을 모두 부여한다.
+ */
+ 
+ -- 사용자ID addr에게 DBA 권한을 부옇나다.
+GRANT DBA TO addr;
+
+
+ 
