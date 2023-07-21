@@ -4,7 +4,7 @@ use bbsDB;
 
 drop table tbl_bbs;
 
-create table tbl_bbs (
+create table tbl_bbs(
 	b_seq	bigint	PRIMARY KEY auto_increment,
 	b_pseq	bigint,
 	b_date	varchar(10),
@@ -48,3 +48,8 @@ alter table tbl_bbs
 add constraint f_username foreign key(b_username)
 references tbl_user(username);
 
+desc tbl_bbs;
+
+select B.b_seq, B.b_pseq, B.b_date, B.b_time, B.b_username, U.nickname, B.b_subject, B.b_content, B.b_count 
+from tbl_bbs B, tbl_user U
+where B.b_username = U.username;
